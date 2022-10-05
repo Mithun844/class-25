@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pricing {
+    background: #F6F9FC;
+}
+
+.article-heading h1 {
+    position: relative;
+
+}
+
+.article-heading h1::after {
+    content: "";
+    bottom: -20px;
+    left: 47%;
+    position: absolute;
+    width: 6%;
+    height: 3px;
+    background-color: blue;
+}
+
+/* Pricing Box CSS */
+.services-item {
+    padding: 0;
+    width: 31%;
+    margin-right: 2%;
+
+    background: white;
+    transition: all .7s ease-in-out;
+}
+
+.services-item h4 {
+    transition: all .7s ease-in-out;
+}
+
+.services-item h1 {
+    margin-top: 8%;
+    margin-bottom: 12%;
+    transition: all .7s ease-in-out;
+    font-size: 37px;
+}
+
+.services-item h1 span {
+    font-size: 33px;
+}
+
+.services-item p {
+    margin-bottom: 8%;
+    color: #fff;
+
+    position: relative;
+}
+
+.services-item p::after {
+    content: "";
+    bottom: -13px;
+    left: 86px;
+    position: absolute;
+    width: 49%;
+    height: 2px;
+    background: #ddd;
+    border: 1px sold #ddd;
+}
+
+.services-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-item ul li {
+    list-style: none;
+    line-height: 45px;
+}
+
+.services-item a {}
+
+.pri-btn {
+    padding: 10px 30px;
+    border-radius: 46px;
+    position: relative;
+    transition: all .7s ease-in-out;
+
+    z-index: 1;
+}
+
+.pri-btn:hover {
+    color: #fff !important;
+    ;
+}
+
+.pri-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: blue;
+    border: 1px soid #fff;
+    border-radius: 45px;
+
+    transition: all .5s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.pri-btn:hover::after {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Priceing Hover Effect */
+.services-item:hover {
+    background: blue;
+    color: #fff;
+
+}
+
+.services-item:hover a {
+    color: blue;
+    background: #fff;
+}
+
+/* Banner Image Css start */
+.banner {
+    background: linear-gradient(rgba(0, 0, 255, 0.534), rgba(0, 0, 255, 0.479)), url("https://i.ibb.co/KDx3tHT/free-bg.jpg") no-repeat;
+    background-position: top center;
+    padding: 87px 0;
+    background-size: cover;
+}
+
+.banner-image-wrap h4 {
+    font-weight: 300;
+}
+.my-custom {
+    background-color: #fff;
+    color: #3763EB;
+    font-weight: bold;
+    padding: 18px 27px;
+    font-size: 31px;
+    border: 2px solid #fff;
+}
+.subs {
+    padding: 7px 8px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background: #3763EB;
+    color: #fff;
+    border-radius: 28px;
+    font-weight: 400;
+}
+
+.subs:hover {
+    background: #3763EB;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.sign-form {
+    background-color: #3763EB;
+
+}
+
+/* input */
+input.form-control {
+    border-radius: 29px;
+    height: 48px;
+    font-size: 22px;
+    padding: 10px 20px;
+}
+
+.last-btn {
+    border-radius: 25px;
+    font-size: 22px;
+}
