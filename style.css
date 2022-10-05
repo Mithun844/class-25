@@ -148,12 +148,12 @@
     border: 2px solid #fff;
 }
 .subs {
-    padding: 7px 8px;
-    font-size: 20px;
+    padding: 10px 8px;
+    font-size: 16px;
     border: 2px solid #fff;
     background: #3763EB;
     color: #fff;
-    border-radius: 28px;
+    border-radius: 29px;
     font-weight: 400;
 }
 
@@ -175,8 +175,10 @@ input.form-control {
     font-size: 22px;
     padding: 10px 20px;
 }
-
+ .buttom-space{
+    margin-bottom: 5rem!important;
+}
 .last-btn {
     border-radius: 25px;
-    font-size: 22px;
+    font-size: 18px;
 }
